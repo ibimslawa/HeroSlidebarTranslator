@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="State_Active" xml:space="preserve">
+    <value>AKTIV</value>
+    <comment>ACTIVE</comment>
+  </data>
+  <data name="Button_Capture" xml:space="preserve">
+    <value>Erfassen</value>
+    <comment>Capture</comment>
+  </data>
+  <data name="State_Off" xml:space="preserve">
+    <value>AUS</value>
+    <comment>OFF</comment>
+  </data>
+  <data name="State_On" xml:space="preserve">
+    <value>AN</value>
+    <comment>ON</comment>
+  </data>
+  <data name="Button_QuitApp" xml:space="preserve">
+    <value>Anwendung beenden</value>
+    <comment>Quit application</comment>
+  </data>
+  <data name="Button_PreviewAxisValue" xml:space="preserve">
+    <value>Aktuellen Wert auslesen</value>
+    <comment>Readout current value</comment>
+  </data>
+  <data name="Button_Settings" xml:space="preserve">
+    <value>Einstellungen</value>
+    <comment>Settings</comment>
+  </data>
+  <data name="Label_Controllers" xml:space="preserve">
+    <value>Controller</value>
+    <comment>Controllers</comment>
+  </data>
+  <data name="Label_Translator" xml:space="preserve">
+    <value>Übersetzer-Einstellungen</value>
+    <comment>Translator</comment>
+  </data>
+  <data name="Info_SelectController" xml:space="preserve">
+    <value>Einen Controller auswählen, um die Übersetzung der Slidebar anzupassen.</value>
+    <comment>Select a controller to setup the Slidebar translation.</comment>
+  </data>
+  <data name="Item_Axis0LeftStickX" xml:space="preserve">
+    <value>Achse 0: LeftStickX</value>
+    <comment>Axis 0: LeftStickX</comment>
+  </data>
+  <data name="Item_Axis1LeftStickY" xml:space="preserve">
+    <value>Achse 1: LeftStickY</value>
+    <comment>Axis 1: LeftStickY</comment>
+  </data>
+  <data name="Item_Axis2RightStickX" xml:space="preserve">
+    <value>Achse 2: RightStickX</value>
+    <comment>Axis 2: RightStickX</comment>
+  </data>
+  <data name="Item_Axis3RightStickY" xml:space="preserve">
+    <value>Achse 3: RightStickY</value>
+    <comment>Axis 3: RightStickY</comment>
+  </data>
+  <data name="Item_Axis4LeftTrigger" xml:space="preserve">
+    <value>Achse 4: LeftTrigger</value>
+    <comment>Axis 4: LeftTrigger</comment>
+  </data>
+  <data name="Item_Axis5RightTrigger" xml:space="preserve">
+    <value>Achse 5: RightTrigger</value>
+    <comment>Axis 5: RightTrigger</comment>
+  </data>
+  <data name="Option_AutostartApp" xml:space="preserve">
+    <value>Anwendung bei Anmeldung starten</value>
+    <comment>Run application at startup</comment>
+  </data>
+  <data name="Option_Invert" xml:space="preserve">
+    <value>Invertieren</value>
+    <comment>Invert</comment>
+  </data>
+  <data name="Label_IdleDeadzone" xml:space="preserve">
+    <value>Normalwert Totzone</value>
+    <comment>Idle deadzone:</comment>
+  </data>
+  <data name="Label_IdleValue" xml:space="preserve">
+    <value>Normalwert</value>
+    <comment>Idle value:</comment>
+  </data>
+  <data name="Label_SelectAxis" xml:space="preserve">
+    <value>Verwendete Achse</value>
+    <comment>Select axis to use:</comment>
+  </data>
+  <data name="Title_MainWindow" xml:space="preserve">
+    <value>HeroSlidebarTranslator einstellen</value>
+    <comment>Setup HeroSlidebarTranslator</comment>
+  </data>
+  <data name="Tooltip_ButtonCapture" xml:space="preserve">
+    <value>Klicken, um aktuellen Achsenwert für diesen Parameter auszulesen.</value>
+    <comment>Click to capture current axis value for this button.</comment>
+  </data>
+  <data name="Tooltip_CurrentAxisValue" xml:space="preserve">
+    <value>Aktueller Wert der ausgewählten Achse.</value>
+    <comment>Current value of the selected axis.</comment>
+  </data>
+  <data name="Tooltip_Integerupdown100" xml:space="preserve">
+    <value>Akzeptierte Werte: -100 bis +100</value>
+    <comment>Accepted values: -100 to +100</comment>
+  </data>
+  <data name="Tooltip_Keybindbox" xml:space="preserve">
+    <value>Auf dieses Kästchen klicken und eine Taste auf der Tastatur drücken, um diese zuzuweisen.
+(Nicht alle Tasten werden akzeptiert.)</value>
+    <comment>Click this box and press a button to edit the keyboard binding.
+(Not all keys are accepted.)</comment>
+  </data>
+  <data name="Tooltip_AutostartApp" xml:space="preserve">
+    <value>Aktiviert: Die Anwendung wird bei Anmelden des Benutzers im Hintergrund gestartet.</value>
+    <comment>Enabled: The application automatically starts in the background when the user logs in.</comment>
+  </data>
+  <data name="Xbox_BatteryLevelEmpty" xml:space="preserve">
+    <value>Leer</value>
+    <comment>Empty</comment>
+  </data>
+  <data name="Xbox_BatteryLevelFull" xml:space="preserve">
+    <value>Voll</value>
+    <comment>Full</comment>
+  </data>
+  <data name="Xbox_BatteryLevelLow" xml:space="preserve">
+    <value>Niedrig</value>
+    <comment>Low</comment>
+  </data>
+  <data name="Xbox_BatteryLevelMedium" xml:space="preserve">
+    <value>Mittel</value>
+    <comment>Medium</comment>
+  </data>
+  <data name="Xbox_BatteryLevelUnknown" xml:space="preserve">
+    <value>Unbekannt</value>
+    <comment>Unknown</comment>
+  </data>
+  <data name="Xbox_BatteryTypeAlkaline" xml:space="preserve">
+    <value>Alkaline</value>
+    <comment>Alkaline</comment>
+  </data>
+  <data name="Xbox_BatteryTypeNimh" xml:space="preserve">
+    <value>NiMH</value>
+    <comment>NiMH</comment>
+  </data>
+  <data name="Xbox_BatteryTypeUnknown" xml:space="preserve">
+    <value>Unbekannt</value>
+    <comment>Unknown</comment>
+  </data>
+  <data name="Xbox_BatteryTypeWired" xml:space="preserve">
+    <value>Kabel</value>
+    <comment>Wired</comment>
+  </data>
+  <data name="Text_RestartApp" xml:space="preserve">
+    <value>Anwendung jetzt neustarten?</value>
+    <comment>Restart application?</comment>
+  </data>
+  <data name="Tooltip_BatteryLevel" xml:space="preserve">
+    <value>Zeigt den Zustand der Batterie an.</value>
+    <comment>Shows the battery level.</comment>
+  </data>
+  <data name="Xbox_ConnectionAbsent" xml:space="preserve">
+    <value>Nicht verfügbar</value>
+    <comment>Absent</comment>
+  </data>
+  <data name="Xbox_ConnectionConnected" xml:space="preserve">
+    <value>Verbunden</value>
+    <comment>Connected</comment>
+  </data>
+  <data name="Xbox_PlayerAny" xml:space="preserve">
+    <value>Any</value>
+    <comment>Any</comment>
+  </data>
+  <data name="Button_OpenSetup" xml:space="preserve">
+    <value>Einstellungen öffnen...</value>
+    <comment>Open setup...</comment>
+  </data>
+  <data name="Label_PowerOffController" xml:space="preserve">
+    <value>Controller ausschalten</value>
+  </data>
+  <data name="Text_KeybindingNone" xml:space="preserve">
+    <value>&lt;kein&gt;</value>
+    <comment>&lt;none&gt;</comment>
+  </data>
+  <data name="Option_BatteryAlerts" xml:space="preserve">
+    <value>Bei niedriger Batterie benachrichtigen</value>
+  </data>
+  <data name="Text_Battery" xml:space="preserve">
+    <value>Batterie</value>
+  </data>
+  <data name="Xbox_BatteryTypeDisconnected" xml:space="preserve">
+    <value>Entfernt</value>
+  </data>
+  <data name="Info_XInputDllError" xml:space="preserve">
+    <value>Den Controller auszuschalten hat nicht geklappt, da "XInput1_3.dll" fehlt.
+Versuche diese über den DirectX Web Installer oder manuell zu installieren.</value>
+    <comment>Turning off the controller failed, because "XInput1_3.dll" is missing.
+Try installing it through the DirectX web installer or manually.</comment>
+  </data>
+  <data name="Info_XInputDllError_Caption" xml:space="preserve">
+    <value>"XInput1_3.dll" konnte nicht gefunden werden</value>
+    <comment>Could not find "XInput1_3.dll"</comment>
+  </data>
+  <data name="Text_RestoreDefaults" xml:space="preserve">
+    <value>Standardeinstellungen</value>
+    <comment>Default settings</comment>
+  </data>
+  <data name="Label_SelectPollRate" xml:space="preserve">
+    <value>Abfragerate (höchste = beste)</value>
+  </data>
+  <data name="Option_TranslatorActive" xml:space="preserve">
+    <value>Übersetzer aktiv</value>
+    <comment>Translator active</comment>
+  </data>
+  <data name="TextF_LowBattWarning" xml:space="preserve">
+    <value>{}Die Batterie von {0} ist fast leer! Wechsle sie jetzt aus!</value>
+    <comment>{}The battery of {0} is low or empty! Change it now!</comment>
+  </data>
+  <data name="TextF_LowBattWarning_Caption" xml:space="preserve">
+    <value>Batterie ist fast leer</value>
+    <comment>Battery is low</comment>
+  </data>
+  <data name="Item_ActivationModeAlways" xml:space="preserve">
+    <value>Immer</value>
+    <comment>Always</comment>
+  </data>
+  <data name="Item_ActivationModeForeground" xml:space="preserve">
+    <value>Spiel im Vordergrund</value>
+    <comment>Game in foreground</comment>
+  </data>
+  <data name="Item_ActivationModeRunning" xml:space="preserve">
+    <value>Spiel läuft</value>
+    <comment>Game is running</comment>
+  </data>
+  <data name="Label_ActivationMode" xml:space="preserve">
+    <value>Aktivitäts-Modus</value>
+    <comment>Activation mode</comment>
+  </data>
+  <data name="State_AppActivated" xml:space="preserve">
+    <value>JETZT AKTIVIERT</value>
+    <comment>NOW ACTIVATED</comment>
+  </data>
+  <data name="State_AppDeactivated" xml:space="preserve">
+    <value>ZURZEIT DEAKTIVIERT</value>
+    <comment>CURRENTLY DEACTIVATED</comment>
+  </data>
+  <data name="State_Inactive" xml:space="preserve">
+    <value>INAKTIV</value>
+    <comment>INACTIVE</comment>
+  </data>
+</root>

@@ -44,7 +44,7 @@ I advise to not use the "activation mode" _Always_ when auto-start is enabled.
 
 # Current development status
 ### Problems, limitations, known bugs
-- Taskbar context menu functionality not yet implemented
+- Taskbar context menu functionality not fully implemented yet
 - Low battery notifications might not work correctly
 ### Possible future implementations
 - Reading keyboard assignments from Clone Hero's settings file ("import from CH" or "sync to CH")

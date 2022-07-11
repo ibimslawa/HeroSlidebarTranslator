@@ -320,9 +320,9 @@ Try installing it through the DirectX web installer or manually.</comment>
   <data name="Label_SelectPollRate" xml:space="preserve">
     <value>Abfragerate (höchste = beste)</value>
   </data>
-  <data name="Option_TranslatorActive" xml:space="preserve">
-    <value>Übersetzer aktiv</value>
-    <comment>Translator active</comment>
+  <data name="Option_TranslatorEnable" xml:space="preserve">
+    <value>Übersetzer einschalten</value>
+    <comment>Translator enabled</comment>
   </data>
   <data name="TextF_LowBattWarning" xml:space="preserve">
     <value>{}Die Batterie von {0} ist fast leer! Wechsle sie jetzt aus!</value>

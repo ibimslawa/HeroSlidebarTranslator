@@ -36,7 +36,7 @@
 								 LinkClicked="LinkRestoreDefaults_LinkClicked"/>
 				</DockPanel>
 				<StackPanel Orientation="Horizontal" Margin="4,0,0,0">
-					<Label Content="{x:Static p:Resources.Option_TranslatorActive}" ContentStringFormat="{}{0}:" />
+					<Label Content="{x:Static p:Resources.Option_TranslatorEnable}" ContentStringFormat="{}{0}:" />
 					<ToggleButton x:Name="ToggleTranslator" Width="96" Margin="8,2"
                               Checked="ToggleTranslator_Checked" Unchecked="ToggleTranslator_Unchecked" >
 						<ToggleButton.Content>

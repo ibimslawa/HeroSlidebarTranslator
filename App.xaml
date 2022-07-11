@@ -17,19 +17,19 @@
 			<Separator/>
 
 			<MenuItem Style="{DynamicResource MenuitemBlockHeader}" x:Name="MenuitemP1Header" FontWeight="Bold" HeaderStringFormat="{}P1: {0}" Header="{x:Static p:Resources.Xbox_ConnectionAbsent}" />
-			<MenuItem x:Name="MenuitemP1Active" IsEnabled="False" IsChecked="False" HeaderStringFormat="{}{0}" Header="{x:Static p:Resources.Option_TranslatorActive}" IsCheckable="True"/>
+			<MenuItem x:Name="MenuitemP1Active" IsEnabled="False" IsChecked="False" HeaderStringFormat="{}{0}" Header="{x:Static p:Resources.Option_TranslatorEnable}" IsCheckable="True"/>
 			<MenuItem x:Name="MenuitemP1Off" IsEnabled="False" HeaderStringFormat="{}{0}" Header="{x:Static p:Resources.Label_PowerOffController}"/>
 
 			<MenuItem Style="{DynamicResource MenuitemBlockHeader}" x:Name="MenuitemP2Header" FontWeight="Bold" HeaderStringFormat="{}P2: {0}" Header="{x:Static p:Resources.Xbox_ConnectionAbsent}" />
-			<MenuItem x:Name="MenuitemP2Active" IsEnabled="False" HeaderStringFormat="{}{0}" Header="{x:Static p:Resources.Option_TranslatorActive}" IsCheckable="True"/>
+			<MenuItem x:Name="MenuitemP2Active" IsEnabled="False" HeaderStringFormat="{}{0}" Header="{x:Static p:Resources.Option_TranslatorEnable}" IsCheckable="True"/>
 			<MenuItem x:Name="MenuitemP2Off" IsEnabled="False" HeaderStringFormat="{}{0}" Header="{x:Static p:Resources.Label_PowerOffController}"/>
 
 			<MenuItem Style="{DynamicResource MenuitemBlockHeader}" x:Name="MenuitemP3Header" FontWeight="Bold" HeaderStringFormat="{}P3: {0}" Header="{x:Static p:Resources.Xbox_ConnectionAbsent}" />
-			<MenuItem x:Name="MenuitemP3Active" IsEnabled="False" HeaderStringFormat="{}{0}" Header="{x:Static p:Resources.Option_TranslatorActive}" IsCheckable="True"/>
+			<MenuItem x:Name="MenuitemP3Active" IsEnabled="False" HeaderStringFormat="{}{0}" Header="{x:Static p:Resources.Option_TranslatorEnable}" IsCheckable="True"/>
 			<MenuItem x:Name="MenuitemP3Off" IsEnabled="False" HeaderStringFormat="{}{0}" Header="{x:Static p:Resources.Label_PowerOffController}"/>
 
 			<MenuItem Style="{DynamicResource MenuitemBlockHeader}" x:Name="MenuitemP4Header" FontWeight="Bold" HeaderStringFormat="{}P4: {0}" Header="{x:Static p:Resources.Xbox_ConnectionAbsent}" />
-			<MenuItem x:Name="MenuitemP4Active" IsEnabled="False" HeaderStringFormat="{}{0}" Header="{x:Static p:Resources.Option_TranslatorActive}" IsCheckable="True"/>
+			<MenuItem x:Name="MenuitemP4Active" IsEnabled="False" HeaderStringFormat="{}{0}" Header="{x:Static p:Resources.Option_TranslatorEnable}" IsCheckable="True"/>
 			<MenuItem x:Name="MenuitemP4Off" IsEnabled="False" HeaderStringFormat="{}{0}" Header="{x:Static p:Resources.Label_PowerOffController}"/>
 
 			<Separator />

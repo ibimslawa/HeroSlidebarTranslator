@@ -334,11 +334,11 @@ namespace HeroSlidebarTranslator.Properties {
         }
         
         /// <summary>
-        ///   Sucht eine lokalisierte Zeichenfolge, die Translator active ähnelt.
+        ///   Sucht eine lokalisierte Zeichenfolge, die Translator enable ähnelt.
         /// </summary>
-        public static string Option_TranslatorActive {
+        public static string Option_TranslatorEnable {
             get {
-                return ResourceManager.GetString("Option_TranslatorActive", resourceCulture);
+                return ResourceManager.GetString("Option_TranslatorEnable", resourceCulture);
             }
         }
         

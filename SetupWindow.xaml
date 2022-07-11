@@ -73,7 +73,7 @@
 
 				</DockPanel>
 
-				<Label Grid.Row="3" x:Name="LabelActivity" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,2" Padding="0"
+				<Label Grid.Row="3" x:Name="LabelActivation" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,2" Padding="0"
 					   HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="16pt" FontWeight="Bold"
 					   Background="#805050" 
 					   Content="{x:Static p:Resources.State_AppDeactivated}"/>

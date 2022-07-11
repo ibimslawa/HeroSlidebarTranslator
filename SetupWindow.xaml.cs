@@ -210,13 +210,13 @@ namespace HeroSlidebarTranslator
 					{
 						if (TranslatorsMasterEnable)
 						{
-							LabelActivity.Content = Properties.Resources.State_AppActivated;
-							LabelActivity.Background = Brush_AppActive;
+							LabelActivation.Content = Properties.Resources.State_AppActivated;
+							LabelActivation.Background = Brush_AppActive;
 						}
 						else
 						{
-							LabelActivity.Content = Properties.Resources.State_AppDeactivated;
-							LabelActivity.Background = Brush_AppInactive;
+							LabelActivation.Content = Properties.Resources.State_AppDeactivated;
+							LabelActivation.Background = Brush_AppInactive;
 						}
 						ComboboxActivationMode.SelectedIndex = (int)ActivationMode;
 					});

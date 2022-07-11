@@ -279,8 +279,8 @@ Try installing it through the DirectX web installer or manually.</value>
   <data name="Label_SelectPollRate" xml:space="preserve">
     <value>Poll rate (highest = best)</value>
   </data>
-  <data name="Option_TranslatorActive" xml:space="preserve">
-    <value>Translator active</value>
+  <data name="Option_TranslatorEnable" xml:space="preserve">
+    <value>Translator enable</value>
   </data>
   <data name="TextF_LowBattWarning" xml:space="preserve">
     <value>{}The battery of {0} is low or empty! Change it now!</value>
